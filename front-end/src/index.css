@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/boonbaan-0.2/woff/boonhome-700-oblique.woff') format('truetype');
+  font-style: normal;
+} 
+
+@font-face {
+  font-family: "boonhome";
+  src: url("./assets/fonts/boonbaan-0.2/woff/boonhome-400.woff") format("truetype");
+  font-style: normal;
+}
+
+:root {
+  font-family: boonhome;
+  line-height: 1.5;
+  background-color: #fefefe;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "boonhome", sans-serif !important;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'boonhome', sans-serif !important;
+}
